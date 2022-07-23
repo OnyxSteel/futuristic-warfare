@@ -4,6 +4,7 @@ description: A rapid-fire bolt turret.
 size: 2
 reload: 15
 range: 160
+shootSound: lasershoot
 consumes: {
 power: 1
 liquid: {
