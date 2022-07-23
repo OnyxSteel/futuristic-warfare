@@ -1,0 +1,24 @@
+type: itemTurret
+name: Restrain
+description: Fires clumps of lead flak at enemies.
+range: 160
+size: 2
+health: 800
+ammoTypes: {
+lead: {
+type: FlakBulletType
+collidesGround: true
+speed: 4
+lifetime: 40
+damage: 5
+splashDamageRadius: 30
+splashDamage: 23
+}
+}
+requirements: [
+copper/60
+lead/70
+graphite/40
+]
+research: scatter
+category: turret
