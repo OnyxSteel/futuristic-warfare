@@ -1,0 +1,36 @@
+type: PowerTurret
+name: Expel
+description: A rapid-fire bolt turret.
+size: 2
+reload: 15
+range: 160
+consumes: {
+power: 1
+liquid: {
+liquid: water
+amount: 0.1
+}
+}
+shootType: {
+type: LaserBoltBulletType
+lifetime: 80
+speed: 2
+damage: 8
+}
+requirements: [
+copper/100
+lead/90
+graphite/80
+silicon/80
+titanium/60
+]
+research: {
+parent: arc
+objectives: [
+{
+type: LandOnSector
+preset: craters
+}
+]
+}
+category: turret
