@@ -16,7 +16,7 @@ shootType: {
 type: LaserBoltBulletType
 lifetime: 80
 speed: 2
-damage: 8
+damage: 12
 }
 requirements: [
 copper/100
