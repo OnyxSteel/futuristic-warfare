@@ -2,9 +2,9 @@ type: PowerTurret
 name: Expel
 description: A rapid-fire bolt turret.
 size: 2
-reload: 15
-range: 160
-shootSound: lasershoot
+reload: 10
+range: 280
+shootSound: laser
 consumes: {
 power: 1
 liquid: {
@@ -13,23 +13,30 @@ amount: 0.1
 }
 }
 shootType: {
-type: LaserBoltBulletType
-lifetime: 80
-speed: 2
-damage: 12
+type: PointBulletType
+damage: 17
+shootEffect: instShoot
+hitEffect: instHit
+lightning: 3
+lightningDamage: 5
+smokeEffect: smokeCloud
+trailEffect: instTrail
+despawnEffect: instBomb
+lifetime: 5
+speed: 85
 }
 requirements: [
-copper/100
-lead/90
+lead/150
 graphite/80
 silicon/80
+metalgass/60
 titanium/60
 ]
 research: {
 parent: arc
 objectives: [
 {
-type: LandOnSector
+type: SectorCapture
 preset: craters
 }
 ]
