@@ -1,6 +1,6 @@
 type: PowerTurret
 name: Expel
-description: A rapid-fire bolt turret.
+description: A rapid-fire bolt turret. Attacks supress enemy systems.
 health: 1350
 size: 2
 reload: 10
@@ -15,16 +15,17 @@ amount: 0.1
 }
 shootType: {
 type: PointBulletType
-damage: 17
+damage: 12
 shootEffect: instShoot
 hitEffect: instHit
 lightning: 3
-lightningDamage: 5
+lightningDamage: 3
 smokeEffect: smokeCloud
 trailEffect: instTrail
 despawnEffect: instBomb
 lifetime: 5
 speed: 85
+status: supressed
 }
 requirements: [
 lead/150
