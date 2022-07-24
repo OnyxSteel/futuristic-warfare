@@ -1,6 +1,7 @@
 type: PowerTurret
 name: Expel
 description: A rapid-fire bolt turret.
+health: 1350
 size: 2
 reload: 10
 range: 280
