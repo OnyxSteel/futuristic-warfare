@@ -1,0 +1,9 @@
+plans: [
+{
+unit: mace
+time: 700
+cost: [
+copper/1
+]
+}
+]
