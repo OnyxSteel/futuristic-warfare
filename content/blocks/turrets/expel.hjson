@@ -34,6 +34,7 @@ silicon/80
 metaglass/60
 titanium/60
 plastanium/40
+thorium/30
 ]
 research: {
 parent: lancer
