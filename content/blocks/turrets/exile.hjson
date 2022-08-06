@@ -1,0 +1,49 @@
+type: PowerTurret
+name: Exile
+description: Devastating laser bolt turret. Attacks supress enemy systems
+health: 2000
+size: 3
+reload: 15
+range: 490
+shootSound: laser
+consumes: {
+power: 5
+liquid: {
+liquid: cryofluid
+amount: 0.3
+}
+}
+shootType: {
+type: PointBulletType
+damage: 80
+shootEffect: instShoot
+hitEffect: instHit
+lightning: 4
+lightningDamage: 10
+smokeEffect: smokeCloud
+trailEffect: instTrail
+despawnEffect: instBomb
+lifetime: 5
+speed: 85
+status: supressed
+}
+requirements: [
+lead/450
+graphite/350
+silicon/500
+metaglass/260
+titanium/270
+plastanium/260
+thorium/230
+phase-fabric/100
+]
+research: {
+parent: expel
+objectives: [
+{
+type: SectorComplete
+preset: nuclearComplex
+}
+]
+}
+category: turret
