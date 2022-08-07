@@ -1,6 +1,6 @@
 type: itemTurret
 name: Restrain
-description: Fires clumps of lead flak at enemies.
+description: Fires clumps of lead flak that knocks enemies back.
 range: 160
 size: 2
 health: 800
@@ -11,6 +11,7 @@ collidesGround: true
 speed: 4
 lifetime: 40
 damage: 5
+knockback: 3
 splashDamageRadius: 30
 splashDamage: 23
 }
