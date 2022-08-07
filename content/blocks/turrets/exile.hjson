@@ -26,6 +26,7 @@ despawnEffect: instBomb
 lifetime: 5
 speed: 85
 status: supressed
+statusDuration: 720
 }
 requirements: [
 lead/450
