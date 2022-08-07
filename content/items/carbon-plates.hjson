@@ -1,0 +1,5 @@
+type: item
+name: Carbon Plates
+description: Graphite hardened with lead. Used to build tougher structures.
+cost: 1.05
+research: graphite
