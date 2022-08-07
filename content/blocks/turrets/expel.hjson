@@ -18,6 +18,7 @@ type: PointBulletType
 damage: 12
 shootEffect: instShoot
 hitEffect: instHit
+trailWidth: 5
 lightning: 3
 lightningDamage: 3
 smokeEffect: smokeCloud
