@@ -1,0 +1,51 @@
+type: PowerTurret
+name: Banish
+description: The most lethal turret of the Expel path. Devastating bolts that supress enemy targets are fired.
+health: 5000
+size: 4
+reload: 20
+range: 720
+shootSound: laser
+consumes: {
+power: 10
+liquid: {
+liquid: cryofluid
+amount: 0.5
+}
+}
+shootType: {
+type: PointBulletType
+damage: 400
+shootEffect: instShoot
+hitEffect: instHit
+lightning: 5
+lightningDamage: 27
+smokeEffect: smokeCloud
+trailEffect: instTrail
+despawnEffect: instBomb
+lifetime: 5
+speed: 85
+status: supressed
+statusDuration: 1440
+}
+requirements: [
+lead/1200
+graphite/900
+silicon/870
+metaglass/600
+titanium/600
+plastanium/570
+thorium/600
+phase-fabric/230
+surge-alloy/300
+]
+research: {
+parent: exile
+objectives: [
+{
+type: SectorComplete
+preset: desolateRift
+}
+]
+}
+category: turret
