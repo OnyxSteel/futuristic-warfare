@@ -24,6 +24,7 @@ smokeEffect: smokeCloud
 trailEffect: instTrail
 despawnEffect: instBomb
 lifetime: 5
+trailSpacing: 5
 speed: 85
 status: supressed
 }
