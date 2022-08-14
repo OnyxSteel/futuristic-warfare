@@ -1,0 +1,13 @@
+localizedName: Electronics I
+type: lightBlock
+buildVisibility: editorOnly
+size: 1
+health: 200
+description: Basic electronics upgrade. Allows the usage of better logic blocks. Is also required for some basic units and turrets.
+researchCost: [
+lead/1500
+graphite/1000
+silicon/1100
+metaglass/700
+titanium/500
+]
