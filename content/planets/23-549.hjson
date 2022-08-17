@@ -1,7 +1,7 @@
 {
-  "name": "jason",
+  "name": "23-549",
   "parent": "sun",
-  "accessible": false,
+  "accessible": true,
   //ONLY MESS WITH THE GENERATOR IF YOU REALLY KNOW WHAT YOU'RE DOING, OTHERWISE DELETE THIS OBJECT
   "generator": {
     //AsteroidGenerator
