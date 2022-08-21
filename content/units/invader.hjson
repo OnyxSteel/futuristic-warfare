@@ -1,0 +1,27 @@
+type: flying
+name: Invader
+description: Flies towards enemy units and self-destructs, causing a large explosion
+health: 110
+speed: 2.5
+hitSize: 8
+engineOffset: 1
+engineSize: 5
+weapons: {
+{
+name: none
+x: 0
+y: 0
+bullet: {
+type: BombBulletType
+splashDamage: 40
+splashDamageRadius: 64
+killShooter: true
+scaledSplashDamage: true
+}
+}
+}
+researchCost: [
+coal/600
+silicon/600
+]
+research: flare
