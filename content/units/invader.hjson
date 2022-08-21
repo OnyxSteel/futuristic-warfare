@@ -14,7 +14,7 @@ name: none
 x: 0
 y: 0
 mirror: false
-reload: 35
+reload: 60
 bullet: {
 type: BombBulletType
 splashDamage: 40
