@@ -6,7 +6,7 @@ speed: 2.5
 hitSize: 8
 engineOffset: 1
 engineSize: 5
-weapons: {
+weapons: [
 {
 name: none
 x: 0
@@ -19,7 +19,7 @@ killShooter: true
 scaledSplashDamage: true
 }
 }
-}
+]
 researchCost: [
 coal/600
 silicon/600
