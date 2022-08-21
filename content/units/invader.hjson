@@ -3,6 +3,7 @@ name: Invader
 description: Flies towards enemy units and self-destructs, causing a large explosion
 health: 110
 speed: 2.5
+flying: true
 hitSize: 8
 engineOffset: 1
 engineSize: 5
