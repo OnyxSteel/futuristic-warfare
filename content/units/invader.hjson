@@ -19,10 +19,23 @@ bullet: {
 type: BombBulletType
 splashDamage: 40
 speed: 0
+lifetime: 0
 collidesAir: true
 splashDamageRadius: 64
 killShooter: true
+hittable: false
 scaledSplashDamage: true
+despawnEffect: {
+type: MultiEffect
+effects: [
+{
+type: WaveEffect
+sizeFrom: 0
+sizeTo: 64
+}
+{
+type: ExplosionEffect
+}
 }
 }
 ]
