@@ -18,6 +18,8 @@ reload: 35
 bullet: {
 type: BombBulletType
 splashDamage: 40
+speed: 0
+collidesAir: true
 splashDamageRadius: 64
 killShooter: true
 scaledSplashDamage: true
