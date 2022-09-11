@@ -1,0 +1,28 @@
+type: legs
+name: Rapier
+description: Fires homing missiles at enemy targets within range. Can step over most terrain.
+details: The advanced form of the Dagger. Never before has such a unit been seen, or done as much damage to bases as this.
+details:
+health: 170
+armor: 1
+legs: 4
+speed: 0.6
+weapons: [
+{
+name: none
+x: 0
+y: 1
+mirror: false
+shoot: {
+bullets: 3
+}
+alternate: false
+bullet: {
+type: MissileBulletType
+homingRange: 8
+damage: 11
+splashDamageRadius: 14
+splashDamage: 4
+}
+}
+]
