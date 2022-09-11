@@ -36,6 +36,8 @@ sizeTo: 64
 {
 type: ExplosionEffect
 }
+]
+}
 }
 }
 ]
