@@ -16,6 +16,7 @@ reload: 30
 mirror: false
 shoot: {
 shots: 2
+spread: 2
 }
 alternate: false
 bullet: {
@@ -23,7 +24,7 @@ type: MissileBulletType
 homingRange: 8
 lifetime: 60
 speed: 2
-damage: 11
+damage: 13
 splashDamageRadius: 14
 splashDamage: 4
 }
