@@ -15,8 +15,8 @@ y: 1
 reload: 30
 mirror: false
 shoot: {
+type: ShootHelix
 shots: 2
-spread: 2
 }
 alternate: false
 bullet: {
