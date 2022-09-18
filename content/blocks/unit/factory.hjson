@@ -1,0 +1,33 @@
+type: UnitFactory
+name: Factory
+description: Constructs serpulo units from the mod. 
+size: 3
+health: 460
+consumes: {
+power: 2
+}
+plans: [
+{
+unit: rapier
+time: 1500
+requirements: [
+silicon/30
+lead/30
+]
+}
+{
+unit: invader
+time: 960
+requirements: [
+silicon/25
+coal/13
+]
+}
+]
+requirements: [
+copper/320
+lead/260
+silicon/200
+titanium/180
+]
+research: ground-factory
