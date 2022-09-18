@@ -30,3 +30,8 @@ splashDamage: 4
 }
 }
 ]
+research: factory
+researchCost: [
+silicon/900
+lead/900
+]
