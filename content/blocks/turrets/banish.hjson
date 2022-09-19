@@ -1,6 +1,6 @@
 type: PowerTurret
 name: Banish
-description: The most lethal turret of the Expel path. Devastating bolts that supress enemy targets are fired.
+description: Rapidly fires a deadly laser bolt that inflicts suppression
 health: 5000
 size: 4
 reload: 20
