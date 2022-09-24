@@ -1,0 +1,6 @@
+type: item
+name: Detrium
+description: A composite alloy with origins unknown. Used to produce end game structures.
+cost: 13
+charge: 5.43
+research: surge-alloy
