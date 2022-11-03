@@ -1,0 +1,38 @@
+type: itemTurret
+name: Launcher
+description: Fires missiles at enemy targets. Able to use low-tier resources.
+details: Cheap, inexpensive defense over a decent range. Best against slow targets.
+range: 120
+size: 1
+ammoPerShot: 2
+reload: 36
+health: 530
+ammoTypes: {
+lead: {
+type: MissileBulletType
+speed: 3
+lifetime: 40
+damage: 19
+splashDamageRadius: 8
+splashDamage: 10
+ammoMultiplier: 1
+homingRange: 5
+homingPower: 3
+}
+coal: {
+type: MissileBulletType
+speed: 3
+lifetime: 40
+damage: 13
+status: burning
+splashDamageRadius: 8
+splashDamage: 8
+homingRange: 5
+homingPower: 3
+}
+requirements: [
+copper/40
+lead/30
+graphite/30
+]
+category: turret
