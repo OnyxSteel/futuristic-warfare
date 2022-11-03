@@ -30,6 +30,7 @@ splashDamage: 8
 homingRange: 5
 homingPower: 3
 }
+}
 requirements: [
 copper/40
 lead/30
