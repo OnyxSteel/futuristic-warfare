@@ -12,7 +12,7 @@ lead: {
 type: MissileBulletType
 speed: 3
 lifetime: 40
-damage: 19
+damage: 29
 splashDamageRadius: 8
 splashDamage: 10
 ammoMultiplier: 1
@@ -23,7 +23,7 @@ coal: {
 type: MissileBulletType
 speed: 3
 lifetime: 40
-damage: 13
+damage: 23
 status: burning
 splashDamageRadius: 8
 splashDamage: 8
