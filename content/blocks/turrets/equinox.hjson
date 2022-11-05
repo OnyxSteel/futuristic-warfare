@@ -2,6 +2,7 @@ type: ItemTurret
 name: Equinox
 description: Fires a devastating fragmentation shell at nearby targets. Great for attacking large groups of units.
 size: 5
+reload: 20
 range: 480
 targetAir: false
 health: 8900
