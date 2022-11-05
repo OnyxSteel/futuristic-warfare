@@ -2,6 +2,10 @@ type: ContinuousTurret
 name: Equinox
 description: Fires a flame jet capable of rapidly destroying most units. Consumes vast amounts of oil and power.
 size: 5
+drawer: {
+type: DrawTurret
+basePrefix: equinox-
+}
 range: 224
 health: 8900
 consumes: {
