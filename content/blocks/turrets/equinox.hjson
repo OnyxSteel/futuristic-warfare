@@ -4,6 +4,7 @@ description: Fires a devastating fragmentation shell at nearby targets. Great fo
 size: 5
 reload: 20
 range: 480
+ammoPerShot: 15
 targetAir: false
 health: 8900
 consumes: {
@@ -17,6 +18,7 @@ ammoTypes: {
 plastanium: {
 type: ArtilleryBulletType
 speed: 4
+ammoMultiplier: 1
 lifetime: 100
 damage: 1700
 splashDamageRadius: 64
