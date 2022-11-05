@@ -1,25 +1,65 @@
-type: ContinuousTurret
+type: ItemTurret
 name: Equinox
-description: Fires a flame jet capable of rapidly destroying most units. Consumes vast amounts of oil and power.
+description: Fires a devastating fragmentation shell at nearby targets. Great for attacking large groups of units.
 size: 5
-drawer: {
-type: DrawTurret
-basePrefix: equinox-
-}
-range: 224
+range: 480
+targetAir: false
 health: 8900
 consumes: {
 power: 20
 liquid: {
-liquid: oil
-amount: 2.5
+liquid: cryofluid
+amount: 1
 }
 }
-shootType: {
-type: ContinuousLaserBulletType
-damage: 100
-length: 320
-status: melting
+ammoTypes: {
+plastanium: {
+type: ArtilleryBulletType
+speed: 4
+lifetime: 100
+damage: 1700
+splashDamageRadius: 64
+splashDamage: 1200
+hitEffect: {
+type: MultiEffect
+effects: [
+{
+type: WaveEffect
+sizeTo: 640
+}
+{
+type: ParticleEffect
+particles: 8
+sizeFrom: 4
+sizeTo: 1
+}
+]
+}
+fragBullets: 9
+scaledSplashDamage: true
+lightningLength: 11
+lightning: 5
+lightningDamage: 37
+fragBullet: {
+type: ArtilleryBulletType
+speed: 2
+lfetime: 20
+scaledSplashDamage: true
+damage: 970
+splashDamageRadius: 56
+splashDamage: 540
+fragBullets: 5
+fragBullet: {
+type: ArtilleryBulletType
+speed: 1
+lifetime: 20
+scaledSplashDamage: true
+damage: 340
+splashDamageRadius: 40
+splashDamage: 340
+}
+}
+}
 }
 requirements: [
 copper/6000
