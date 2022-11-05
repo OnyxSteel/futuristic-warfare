@@ -4,6 +4,7 @@ description: Fires a devastating fragmentation shell at nearby targets. Great fo
 size: 5
 reload: 20
 range: 480
+maxAmmo: 120
 ammoPerShot: 15
 targetAir: false
 health: 8900
