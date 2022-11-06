@@ -23,6 +23,14 @@ silicon/25
 coal/13
 ]
 }
+{
+unit: quark
+time: 720
+requirements: [
+silicon/40
+graphite/20
+]
+}
 ]
 requirements: [
 copper/320
