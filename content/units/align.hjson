@@ -3,8 +3,8 @@ name: Align
 description: Core unit for an unknown faction. Capable of building, mining, repairing and attacking.
 details: One thing that sets this off from other core units is it's attributes. None other core units could ever match or hope to match this unit in technology.
 flying: true
-envEnabled: 1
-envDisabled: 32
+envEnabled: -1
+envDisabled: 4
 speed: 4
 coreUnitDock: true
 abilites: [
