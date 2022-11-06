@@ -10,7 +10,7 @@ weapons: [
 {
 name: quark-beam
 x: 0
-y: 3
+y: 18
 reload: 40
 mirror: true
 alternate: false
