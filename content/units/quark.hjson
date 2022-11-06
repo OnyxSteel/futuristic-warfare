@@ -1,0 +1,25 @@
+type: flying
+name: Quark
+description: Fires laser blasts at nearby enemies.
+details: Up until now, low-tier air units were bad. Now, we have a next-generation flare capable of delivering more damage with less maintenance with minimum cost.
+flying: true
+speed: 2.7
+health: 150
+armor: 1
+weapons: {
+{
+name: quark-beam
+x: 0
+y: 1
+mirror: true
+alternate: false
+bullet: {
+type: LaserBulletType
+damage: 18
+pierce: true
+pierceCap: 4
+pierceBuilding: true
+pierceArmor: true
+}
+}
+}
