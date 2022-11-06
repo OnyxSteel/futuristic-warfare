@@ -11,7 +11,8 @@ freezing, melting
 ]
 weapons: [
 {
-name: heavy-cannon
+name: heavy-blaster
+rotate: true
 x: 0
 y: 0
 mirror: false
