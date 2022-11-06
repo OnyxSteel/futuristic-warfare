@@ -6,6 +6,10 @@ flying: true
 envEnabled: -1
 envDisabled: 4
 speed: 4
+buildSpeed: 2
+itemCapacity: 120
+mineTier: 4
+mineSpeed: 25
 coreUnitDock: true
 abilites: [
 {
@@ -20,7 +24,7 @@ canHeal: true
 immunities: [
 burning, wet, tarred, freezing
 ]
-weapon: [
+weapons: [
 {
 name: align-launcher
 x: 0
