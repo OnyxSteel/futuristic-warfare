@@ -1,0 +1,37 @@
+type: flying
+name: Proton
+description: Fires cluster missiles at nearby targets.
+flying: true
+health: 470
+armor: 4
+speed: 2.34
+weapons: [
+{
+name: none
+x: 2
+y: 4
+mirror: true
+alternate: true
+reload: 48
+bullet: {
+type: MissileBulletType
+width: 9
+length: 18
+speed: 3
+splashDamageRadius: 12
+splashDamage: 18
+lifetime: 70
+homingRange: 5
+damage: 38
+fragBullets: 3
+fragBullet: {
+homingRange: 5
+speed: 3
+lifetime: 20
+splashDamageRadius: 8
+splashDamage: 11
+damage: 18
+}
+}
+}
+]
