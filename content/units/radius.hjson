@@ -1,0 +1,33 @@
+type: naval
+name: Radius
+description: Small railgun platform, meant to support other units in base assaults. Can be deployed on Slag tiles.
+details: Not even the most secure bases are safe from this.
+speed: 1.12
+health: 650
+range: 240
+armor: 5
+immunities: [
+freezing, melting
+]
+weapons: [
+{
+name: heavy-cannon
+x: 0
+y: 0
+mirror: false
+reload: 300
+bullet: {
+type: PointBulletType
+damage: 90
+shootEffect: instShoot
+hitEffect: instHit
+smokeEffect: smokeCloud
+trailEffect: instTrail
+despawnEffect: instBomb
+lifetime: 4
+speed: 80
+status: supressed
+statusDuration: 600
+}
+}
+]
