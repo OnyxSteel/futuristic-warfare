@@ -6,7 +6,7 @@ flying: true
 speed: 2.7
 health: 150
 armor: 1
-weapons: {
+weapons: [
 {
 name: quark-beam
 x: 0
@@ -23,4 +23,4 @@ pierceBuilding: true
 pierceArmor: true
 }
 }
-}
+]
