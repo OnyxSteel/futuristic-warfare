@@ -11,11 +11,9 @@ metaglass/40
 ]
 }
 power: 4
-upgrades: {
-[
-quark, proton
+upgrades: [
+[quark, proton]
 ]
-}
 requirements: [
 lead/300
 graphite/180
