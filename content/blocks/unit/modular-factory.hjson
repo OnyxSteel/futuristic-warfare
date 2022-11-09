@@ -4,10 +4,12 @@ description: Constructs tier two units.
 size: 3
 constructTime: 1200
 consumes: {
+power: 4
 items: [
 silicon/55
 metaglass/40
 ]
+}
 power: 4
 upgrades: {
 [
