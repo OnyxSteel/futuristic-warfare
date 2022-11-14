@@ -1,0 +1,11 @@
+type: wall
+name: Citadel Wall
+description: Protects structures from enemy bullets. Absorbs electric weaponry, blocks automatic power node connections. Armored.
+size: 2
+health: 3980
+armor: 5
+insulated: true
+requirements: [
+thorium/20
+plastanium/18
+]
