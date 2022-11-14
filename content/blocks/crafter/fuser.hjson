@@ -3,6 +3,7 @@ name: Detrium Fuser
 description: Fuses Detrium from Tungsten, Phase Fabric and nitrogen. Requires heat. Produces ozone as a byproduct.
 envEnabled: -1
 envDisabled: 4
+itemCapacity: 30
 heatRequirement: 18
 size: 3
 consumes: {
