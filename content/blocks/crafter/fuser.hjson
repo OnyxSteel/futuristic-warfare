@@ -1,0 +1,41 @@
+type: HeatCrafter
+name: Detrium Fuser
+description: Fuses Detrium from Tungsten, Phase Fabric and nitrogen. Requires heat. Produces ozone as a byproduct.
+envEnabled: -1
+envDisabled: 4
+heatRequirement: 18
+size: 3
+consumes: {
+power: 10
+items: [
+tungsten/6
+phase-fabric/5
+]
+liquid: {
+liquid: nitrogen
+amount: 0.4
+}
+}
+drawer: [
+{
+type: DrawDefault
+}
+{
+type: DrawRegion
+region: -bottom
+}
+{
+type: DrawArcSmelt
+}
+]
+outputItem: detrium/2
+outputLiquid: ozone/0.3
+craftTime: 240
+requirements: [
+beryllium/200
+graphite/170
+silicon/120
+oxide/80
+tungsten/100
+]
+category: crafting
