@@ -18,14 +18,14 @@ amount: 0.4
 }
 drawer: [
 {
-type: DrawDefault
-}
-{
 type: DrawRegion
 suffix: -bottom
 }
 {
 type: DrawArcSmelt
+}
+{
+type: DrawDefault
 }
 ]
 outputItem: detrium/2
