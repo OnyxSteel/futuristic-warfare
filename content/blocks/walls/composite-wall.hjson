@@ -1,8 +1,0 @@
-type: Wall
-name: Composite Wall
-description: Protects structures from enemy bullets. Reflects most bullets. Absorbs electric arcs and lasers, periodically releasing electric arcs upon attack.
-size: 2
-health: 6500
-insulated: true
-lightningChance: 3
-chanceDeflect: 8
