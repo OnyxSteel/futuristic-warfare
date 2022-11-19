@@ -17,8 +17,8 @@ reload: 20
 bullet: {
 type: BasicBulletType
 speed: 2.4
-lifetime: 30
-damage: 25
+lifetime: 40
+damage: 19
 armorPiercing: true
 pierce: true
 pierceCap: 3
