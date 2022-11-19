@@ -10,7 +10,7 @@ burning
 weapons: [
 {
 name: hatchet-blaster
-x: 3
+x: 5
 y: 0
 mirror: true
 alternate: true
