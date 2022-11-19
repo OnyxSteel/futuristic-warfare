@@ -1,0 +1,32 @@
+type: ground
+name: Hatchet
+description: Fires lasers at enemy targets within range.
+health: 190
+armor: 2
+speed: 0.49
+immunities: [
+burning
+]
+weapons: [
+{
+name: hatchet-blaster
+x: 3
+y: 0
+mirror: true
+alternate: true
+reload: 45
+bullet: {
+type: LaserBulletType
+damage: 38
+length: 180
+pierceArmor: true
+pierce: true
+pierceCap: 7
+colors: [
+    ec745855 
+    ff9c5aff 
+    ffffffff
+]
+}
+}
+]
