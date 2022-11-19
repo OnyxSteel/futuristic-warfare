@@ -1,0 +1,29 @@
+type: flying
+name: Drain
+description: Fires plasma charges at enemies.
+health: 560
+flying: true
+armor: 4
+speed: 2
+envEnabled: -1
+envDisabled: 4
+weapons: [
+{
+name: plasma-blaster
+x: 0
+y: 0
+mirror: false
+reload: 20
+bullet: {
+type: BasicBulletType
+speed: 2.4
+lifetime: 30
+damage: 25
+armorPiercing: true
+pierce: true
+pierceCap: 3
+frontColor: FFFFFFFF
+backColor: 8ca9e800
+}
+}
+]
