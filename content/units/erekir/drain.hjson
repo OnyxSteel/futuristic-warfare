@@ -10,14 +10,15 @@ envDisabled: 4
 weapons: [
 {
 name: plasma-blaster
-x: 0
+x: 2
 y: 0
-mirror: false
-reload: 20
+mirror: true
+alternate: true
+reload: 12
 bullet: {
 type: BasicBulletType
 speed: 2.4
-lifetime: 40
+lifetime: 50
 damage: 19
 armorPiercing: true
 pierce: true
