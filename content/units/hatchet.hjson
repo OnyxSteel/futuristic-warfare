@@ -1,4 +1,4 @@
-type: ground
+type: mech
 name: Hatchet
 description: Fires lasers at enemy targets within range.
 health: 190
