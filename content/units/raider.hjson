@@ -3,7 +3,7 @@ name: Raider
 description: Fires a railgun at nearby targets. Stronger versus buildings.
 flying: true
 health: 340
-engineOffset: 7
+engineOffset: 6
 armor: 4
 speed: 1.7
 weapons: [
