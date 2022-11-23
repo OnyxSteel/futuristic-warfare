@@ -1,0 +1,30 @@
+type: flying
+name: Raider
+description: Fires a railgun at nearby targets. Stronger versus buildings.
+flying: true
+health: 340
+armor: 4
+speed: 2
+weapons: [
+{
+name: none
+x: 0
+y: 0
+reload: 120
+mirror: false
+bullet: {
+type: PointBulletType
+speed: 45
+damage: 90
+shootEffect: instShoot
+hitEffect: instHit
+smokeEffect: smokeCloud
+trailEffect: instTrail
+despawnEffect: instBomb
+lightning: 4
+lightningLength: 11
+lightningDamage: 5
+buildingDamageMultiplier: 1.3
+}
+}
+]
