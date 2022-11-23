@@ -14,7 +14,7 @@ reload: 120
 mirror: false
 bullet: {
 type: PointBulletType
-speed: 45
+speed: 12
 damage: 90
 shootEffect: instShoot
 hitEffect: instHit
