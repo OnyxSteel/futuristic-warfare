@@ -2,6 +2,7 @@ type: flying
 name: Invader
 description: Flies towards enemy units and self-destructs, causing a large explosion
 health: 120
+range: 64
 speed: 2.6
 flying: true
 hitSize: 8
