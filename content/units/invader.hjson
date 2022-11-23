@@ -1,9 +1,8 @@
 type: flying
 name: Invader
 description: Flies towards enemy units and self-destructs, causing a large explosion
-health: 110
-armor: 1
-speed: 2.5
+health: 120
+speed: 2.6
 flying: true
 hitSize: 8
 engineOffset: 1
@@ -17,7 +16,7 @@ mirror: false
 reload: 60
 bullet: {
 type: BombBulletType
-splashDamage: 40
+splashDamage: 55
 speed: 0
 lifetime: 0
 collidesAir: true
