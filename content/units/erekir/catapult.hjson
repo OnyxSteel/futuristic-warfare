@@ -1,0 +1,26 @@
+type: flying
+name: Catapult
+description: Fires a laser at enemy GROUND targets.
+targetAir: false
+flying: true
+health: 720
+armor: 3
+speed: 1.3
+weapons: [
+{
+name: none
+x: 0
+y: 0
+mirror: false
+reload: 180
+bullet: {
+type: LaserBulletType
+colors: [
+    ec745855 
+    ff9c5aff 
+    ffffffff
+    ]
+damage: 210
+}
+}
+]
