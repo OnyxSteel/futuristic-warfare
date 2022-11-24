@@ -1,7 +1,9 @@
-type: GenericCrafter
+type: AttributeCrafter
 name: Large Kiln
 description: Produces greater amounts of metaglass than the normal kiln.
 size: 3
+maxBoost: 1.7
+itemCapacity: 32.
 drawer: [
 {
 type: DrawDefault
