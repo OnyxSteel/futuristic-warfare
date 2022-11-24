@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Large Kiln
+description: Produces greater amounts of metaglass than the normal kiln.
+size: 3
+drawer: [
+{
+type: DrawDefault
+}
+{
+type: DrawFlame
+}
+]
+consumes: {
+power: 5.5
+items: [
+sand/4
+lead/5
+]
+}
+outputItem: metaglass/8
+craftTime: 50
+requirements: [
+lead/180
+silicon/150
+graphite/100
+metaglass/100
+]
+category: crafting
