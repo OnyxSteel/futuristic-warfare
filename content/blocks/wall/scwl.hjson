@@ -1,0 +1,10 @@
+type: wall
+name: Large Sea Copper Wall
+description: A large copper wall with more health that is placable at sea.
+size: 2
+health: 1400
+requirements: [
+copper/24
+metaglass/8
+]
+category: defense
