@@ -1,6 +1,8 @@
 type: UnitFactory
 name: Mixed Fabricator
 description: Fabricates erekir units from the mod.
+envEnabled: -1
+envDisabled: 4
 consumes: {
 power: 5
 }
