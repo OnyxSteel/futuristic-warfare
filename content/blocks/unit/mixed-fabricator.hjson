@@ -9,22 +9,22 @@ power: 5
 size: 3
 health: 575
 plans: [
-{
-unit: catapult
-time: 2400
-requirements: [
-silicon/75
-beryllium/60
-[
-}
-{
-unit: drain
-time: 2100
-requirements: [
-silicon/60
-graphite/50
-]
-}
+  {
+      unit: catapult
+      time: 2400
+      requirements: [
+        silicon/75
+        beryllium/60
+    [
+  }
+  {
+      unit: drain
+      time: 2100
+      requirements: [
+        silicon/60
+        graphite/50
+    ]
+  }
 ]
 requirements: [
 silicon/350
