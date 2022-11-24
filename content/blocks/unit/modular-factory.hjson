@@ -1,5 +1,5 @@
 type: reconstructor
-name: Modular Factory
+name: Refabricator
 description: Constructs tier two units.
 size: 3
 constructTime: 1200
@@ -13,6 +13,7 @@ metaglass/40
 power: 4
 upgrades: [
 [quark, proton]
+[invader, raider]
 ]
 requirements: [
 lead/300
