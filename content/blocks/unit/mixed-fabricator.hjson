@@ -7,7 +7,7 @@ consumes: {
 power: 5
 }
 size: 3
-health: 575
+health: 645
 plans: [
   {
       unit: catapult
