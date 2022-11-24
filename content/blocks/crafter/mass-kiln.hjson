@@ -1,0 +1,33 @@
+type: AttributeCrafter
+name: Mass Kiln
+description: Smelts a massive amount of metaglass.
+details: Are you not satisfied with the large kiln?
+size: 4
+maxBoost: 3
+itemCapacity: 210
+drawer: [
+{
+type: DrawDefault
+}
+{
+type: DrawFlame
+}
+]
+consumes: {
+power: 10
+items: [
+sand/16
+lead/19
+]
+}
+outputItem: metaglass/21
+craftTime: 60
+requirements: [
+lead/330
+silicon/250
+graphite/250
+metaglass/300
+titanium/350
+plastanium/120
+]
+category: crafting
