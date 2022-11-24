@@ -10,19 +10,19 @@ size: 3
 health: 645
 plans: [
   {
-      unit: catapult
-      time: 2400
-      requirements: [
-        silicon/75
-        beryllium/60
-    [
+    unit: catapult
+    time: 2100
+    requirements: [
+      silicon/90
+      beryllium/70
+    ]
   }
   {
-      unit: drain
-      time: 2100
-      requirements: [
-        silicon/60
-        graphite/50
+    unit: drain
+    time: 2100
+    requirements: [
+      silicon/55
+      graphite/40
     ]
   }
 ]
