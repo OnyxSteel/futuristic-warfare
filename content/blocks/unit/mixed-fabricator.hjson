@@ -1,0 +1,33 @@
+type: UnitFactory
+name: Mixed Fabricator
+description: Fabricates erekir units from the mod.
+consumes: {
+power: 5
+}
+size: 3
+health: 575
+plans: [
+{
+unit: catapult
+time: 2400
+requirements: [
+silicon/75
+beryllium/60
+[
+}
+{
+unit: drain
+time: 2100
+requirements: [
+silicon/60
+graphite/50
+]
+}
+]
+requirements: [
+silicon/350
+graphite/350
+beryllium/400
+tungsten/250
+]
+category: units
