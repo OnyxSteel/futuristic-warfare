@@ -1,0 +1,8 @@
+type: UnlockableContent
+name: Tree
+research: {
+root: true
+}
+researchCost: [
+copper/50
+]
